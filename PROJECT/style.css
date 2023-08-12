@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Lumanosimo&family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Lumanosimo&family=Open+Sans:wght@500&family=Roboto:wght@100&display=swap');
+
+:root {
+    --main-bg-color: rgb(77, 183, 148);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: var(--main-bg-color);
+    border: 2px solid var(--main-bg-color)
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    background-color: rgb(222, 244, 249);
+    width: 407px;
+    height: 33px;
+    /* border: 2px solid ; */
+    border-radius: 4px;
+    margin: 0 15px 0 65px;
+    padding: 0 12px;
+    font-size: large;
+}
+
+.search button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900px;
+}
+
+.class2 {
+    display: flex;
+
+    flex-direction: row;
+    margin: auto;
+    padding: 7px 16px;
+    background-color: rgb(239, 235, 235);
+}
+
+.carditem2 {
+
+
+    color: black;
+    padding: 0px 22px;
+    font-family: 'Open Sans';
+    cursor: pointer;
+    background-color: white;
+}
+
+main {
+    background-color: rgb(239, 235, 235);
+}
+
+.slider {
+    margin: 0px auto;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    overflow: hidden;
+
+    /* border-radius: 4px; */
+
+}
+
+
+.card {
+    /* background-color: rgb(50, 49, 49); */
+    background-color: white;
+    color: black;
+    max-width: 95vw;
+    margin: auto;
+    padding: 17px;
+    font-family: 'Lumanosimo';
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    padding: 0 2px;
+}
+
+.card-item {
+    width: 13vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 22px;
+
+
+}
+
+.card h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.lines {
+    font-family: 'Lumanosimo';
+
+}
+
+.img {
+    background-color: rgb(239, 235, 235);
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+.container3 {
+    margin: 93px auto;
+
+}
+
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
